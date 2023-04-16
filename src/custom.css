@@ -1,0 +1,22 @@
+:root {
+    --bs-primary: #123456;
+    --bs-secondary: #abcdef;
+    /* Add other color variables here */
+  }
+  
+  .navbar.bg-dark {
+  background-image: linear-gradient(to bottom, #121619, #394c50)!important;
+}
+
+.btn-custom {
+    background-color: #51b5c7;
+    border-color: #51b5c7;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
